@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+}
+.navbar ul{
+  list-style-type: none;
+background-color: aqua;
+padding: 0px;
+margin: 0px;
+overflow: hidden;
+
+}
+.navbar a{
+    color: rgb(224, 15, 15);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+
+}
+.navbar a:hover{
+    background-color:burlywood;
+    transition: 1s;
+
+}
+.navbar ul:hover :active{
+    background-color:rgb(65, 77, 135);
+    transition: 0.3s;
+
+}
+.navbar li{
+    float: left;
+}
+.navbar select{
+color: rgb(224, 15, 15);
+background-color: aqua;
+border: none;
+text-decoration: none;
+margin: 0px;
+padding: 15px;
+display: block;
+text-align: center;
+font-size: 19px;
+font-style: normal;
+
+}
+.navbar select:hover{
+    background-color:burlywood;
+    transition: 1s;
